@@ -1,0 +1,33 @@
+# ── Python / Django ────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyc
+.env
+*.egg-info/
+dist/
+build/
+*.sqlite3
+staticfiles/
+media/
+.venv/
+venv/
+my_env/
+
+# ── Node / React ────────────────────────────────
+node_modules/
+dist/
+.env
+.env.local
+.env.production
+
+# ── Editors ────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Misc ───────────────────────────────────────
+*.log
+*.pid
