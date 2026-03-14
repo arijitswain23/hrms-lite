@@ -14,7 +14,7 @@ A full-stack HRMS application built with **Django REST Framework** (backend) and
 4. [Environment Variables](#environment-variables)
 5. [API Reference](#api-reference)
 6. [Deployment](#deployment)
-   - [Backend → Railway](#backend--railway)
+   - [Backend → Render](#backend--render)
    - [Frontend → Vercel](#frontend--vercel)
 7. [Features](#features)
 8. [Design Decisions](#design-decisions)
@@ -48,8 +48,8 @@ hrms-lite/
 │   │   └── wsgi.py                 # WSGI entry point
 │   ├── manage.py
 │   ├── requirements.txt
-│   ├── Procfile                    # Railway / Gunicorn startup
-│   ├── railway.json                # Railway deployment config
+│   ├── build.sh                    
+│   ├── start.sh               
 │   └── .env.example
 │
 └── frontend/                       # React + Vite SPA
@@ -92,7 +92,7 @@ hrms-lite/
 | HTTP       | Axios                              |
 | Backend    | Python 3.11+, Django 4.2, DRF      |
 | Database   | PostgreSQL                         |
-| Deployment | Vercel (frontend), Railway (backend)|
+| Deployment | Vercel (frontend), Render (backend)|
 
 ---
 
