@@ -13,7 +13,7 @@ import axios from 'axios'
 // Axios instance
 // ---------------------------------------------------------------------------
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000/api',
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://hrms-lite-production-55f3.up.railway.app/api',
   headers: { 'Content-Type': 'application/json' },
   timeout: 15000, // 15 s timeout
 })
